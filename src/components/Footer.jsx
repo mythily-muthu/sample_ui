@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-white text-lg p-1 flex justify-between items-center fixed bottom-0 left-0 w-full">
+    <div className="bg-customblue text-white text-lg p-1 flex justify-between items-center fixed bottom-0 left-0 w-full">
       <p className=" flex items-center px-5">Copyright termly @ 2023</p>
       <img
         className="w-[150px] h-8 px-5"
