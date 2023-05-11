@@ -1,5 +1,4 @@
 import React from "react";
-import Business from "../Pages/Business";
 
 const Navbar = () => {
   return (
