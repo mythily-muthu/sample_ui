@@ -13,7 +13,7 @@ const Navbar = () => {
           <li className="hover:font-bold">Personal</li>
           <li className="hover:font-bold">Event</li>
           <li className="hover:font-bold">Blog</li>
-          <li className="hover:font-bold">Comig soon</li>
+          <li className="hover:font-bold">Coming soon</li>
           <li className="hover:font-bold">Others</li>
         </ul>
       </div>
