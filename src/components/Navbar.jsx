@@ -7,15 +7,29 @@ const Navbar = () => {
         <h1 className="text-3xl font-semibold cursor-pointer">
           Select A THEME
         </h1>
-        <ul className="flex gap-4 cursor-pointer text-lg w-[fit-content]">
-          <li className="hover:font-bold">Business</li>
-          <li className="hover:font-bold">Portfolio</li>
-          <li className="hover:font-bold">Personal</li>
-          <li className="hover:font-bold">Event</li>
-          <li className="hover:font-bold">Blog</li>
-          <li className="hover:font-bold">Coming soon</li>
-          <li className="hover:font-bold">Others</li>
-        </ul>
+        <div className="flex gap-4 cursor-pointer text-lg w-[fit-content]">
+          <a className="hover:font-bold" href="/business">
+            Business
+          </a>
+          <a className="hover:font-bold" href="/portfolio">
+            Portfolio
+          </a>
+          <a className="hover:font-bold" href="/personal">
+            Personal
+          </a>
+          <a className="hover:font-bold" href="/event">
+            Event
+          </a>
+          <a className="hover:font-bold" href="/blog">
+            Blog
+          </a>
+          <a className="hover:font-bold" href="/comingsoon">
+            Coming soon
+          </a>
+          <a className="hover:font-bold" href="/others">
+            Others
+          </a>
+        </div>
       </div>
     </div>
   );
