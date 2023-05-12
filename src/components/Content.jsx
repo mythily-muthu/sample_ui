@@ -13,18 +13,17 @@ const Content = () => {
   return (
     <div>
       {/* routes */}
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/business" element={<Business />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/personal" element={<Personal />} />
-          <Route path="/event" element={<Event />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/comingsoon" element={<ComingSoon />} />
-          <Route path="/others" element={<Others />} />
-        </Routes>
-      </Router>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/business" element={<Business />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/personal" element={<Personal />} />
+        <Route path="/event" element={<Event />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/comingsoon" element={<ComingSoon />} />
+        <Route path="/others" element={<Others />} />
+      </Routes>
     </div>
   );
 };
